@@ -1,7 +1,7 @@
 # RPi-Commands:
 The purpose of this repository is to document some useful terminal commands for the Raspberry Pi, the issues we faced while working on a RPi based project and more.
 
-1.	# Setting RaspberryPi as a Hotspot:
+# 1. Setting RaspberryPi as a Hotspot:
 •	Paste these commands in the terminal:
 ```
 sudo nmcli con add type wifi ifname wlan0 mode ap con-name HOTSPOT ssid <SSID>
@@ -30,7 +30,7 @@ If you want to delete the hotspot:
 sudo nmcli con delete HOTSPOT
 ```
 
-2. # Set Python Script as a Service (Executes the Python Script every time the RPi boots up):
+# 2. Set Python Script as a Service (Executes the Python Script every time the RPi boots up):
 
 •	In the terminal:
 ```
