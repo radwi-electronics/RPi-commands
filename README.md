@@ -68,4 +68,5 @@ To check if the service is running:
 sudo systemctl status flask_server.service
 ```
 It should show an error if there is any problem in running the script.
+
 •	You can check by restarting the RPi to see if the python script runs after boot.
