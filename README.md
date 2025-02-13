@@ -24,3 +24,8 @@ sudo nmcli con modify HOTSPOT ipv4.method shared ipv4.address 192.168.4.1/24
 ```
 sudo nmcli con up HOTSPOT
 ```
+
+If you want to delete the hotspot:
+```
+sudo nmcli con delete HOTSPOT
+```
